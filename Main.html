@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dosefy-Medical reminders</title>
+    <link href="medicine.png" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: #efefef;">
+
+    <nav class="navbar" style="background-color: #324047;" style="position:fixed;">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="color: aliceblue;font-size: x-large;" href="#">Dosefy</a>
+            <p style="color:darkgray">Your Partner in Medication Management</p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #efefef;">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: #ffff;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #ffff;">About us</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <a href="#para">
+            <img src="img.png" alt="" height="10%" width="100%" style="align-items:center ;"></a>
+    </div><br>
+    </div>
+    <section id="para">
+        <div class="container-xxl">
+            <h2 style="text-align: center;">Manage Your Medication Effortlessly </h2>
+            <p style="justify-content:center ;text-align:center">Dosefy simplifies your health routine by organizing your medication schedules in one place. </p>
+        </div>
+    </section>
+    <section>
+
+    </section>
+    <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0" style="margin-left: 2;">
+            <a href="index.html" style="text-decoration:none">
+                <div class="card">
+                    <div class="card-body" style="background-color: #00A8A8; padding:30px;text-decoration:none">
+                        <img src="notify.png" height="10%" width="10%" style="margin-left:45%"><br><br>
+                        <h5 class="card-title" style="font-family:Georgia, 'Times New Roman', Times, serif;text-align: center;font-weight: 1000;font-size: x-large;color:#ffff;text-decoration:none;">Set Remainder</h5>
+                    </div>
+            </a>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <a href="search.html" style="text-decoration:none">
+                <div class="card" style="text-decoration:none">
+                    <div class="card-body" style="background-color: #00A8A8;padding:30px">
+                        <img src="medi.png" height="10%" width="10%" style="margin-left:45%"><br><br>
+                        <h5 class="card-title" style="font-family:Georgia, 'Times New Roman', Times, serif;text-align: center;font-weight: 1000;font-size: x-large;color:#ffff;text-decoration:#00A8A8">Search Medicine</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+            <a href="Emergency.html" style="text-decoration:none">
+                <div class="card">
+                    <div class="card-body" style="background-color: #00A8A8;padding:30px">
+                        <img src="call.png" height="10%" width="10%" style="margin-left:45%"><br><br>
+                        <h5 class="card-title" style="font-family:Georgia, 'Times New Roman', Times, serif;text-align: center;font-weight: 1000;font-size: x-large;color:#ffff;">Emergency Contacts</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-6" style="margin-right: 2;">
+            <a href="index copy.html" style="text-decoration:none">
+                <div class="card">
+                    <div class="card-body" style="background-color: #00A8A8;padding:30px">
+                        <img src="bot.png" height="10%" width="10%" style="margin-left:45%"><br><br>
+                        <h5 class="card-title" style="font-family:Georgia, 'Times New Roman', Times, serif;text-align: center;font-weight: 1000;font-size: x-large;color:#ffff;">Mr. Susruta</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script>
+        window.botpressWebChat.init({
+            "composerPlaceholder": "He! I am here",
+            "botConversationDescription": "Docify Assest",
+            "botId": "c8969185-053a-4de5-841b-f31248c160d4",
+            "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+            "messagingUrl": "https://messaging.botpress.cloud",
+            "clientId": "c8969185-053a-4de5-841b-f31248c160d4",
+            "webhookId": "6105fba3-340a-442f-9f0b-df7704a12b08",
+            "lazySocket": true,
+            "themeName": "prism",
+            "frontendVersion": "v1",
+            "showPoweredBy": true,
+            "theme": "prism",
+            "themeColor": "#B2A4D4"
+        });
+    </script>
+
+</html>
